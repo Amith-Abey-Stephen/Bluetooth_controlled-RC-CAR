@@ -1,6 +1,6 @@
 #include <AFMotor.h>
 
-// Initial motors pin
+// Initial motors pin which are connected to the motor driver sheild
 AF_DCMotor motor1(1, MOTOR12_1KHZ);
 AF_DCMotor motor2(2, MOTOR12_1KHZ);
 AF_DCMotor motor3(3, MOTOR34_1KHZ);
